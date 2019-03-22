@@ -7,7 +7,17 @@ npm install
 # serve with hot reload at localhost:8080
 npm start
 ```
+
+## Version
+    
+    node --version
+    v11.12.0
+
+    npm --version
+    6.7.0
+
 ## Dependencies
+    
     "boom": "^7.2.2",
     "fastify": "^1.13.0",
     "fastify-mongodb": "^0.9.1",
@@ -16,15 +26,18 @@ npm start
     "nodemon": "^1.18.7"
 
 ## Features completed
+    
     An endpoint that lets the client get a list of all restaurants
     An endpoint that lets the client get more info on a single restaurant
     An endpoint that accepts a POST request to add new restaurants to the DB
     Functionality to delete restaurants from the DB through the API
 
 ## Features attempted
+    
     Functionality to update restaurants from the DB through the API
 
 ## Tests
+    
     Tested GET, GET(one), DELETE, PUSH with POSTMAN
     (screenshots from postman inside the sceenshot folder)
 
