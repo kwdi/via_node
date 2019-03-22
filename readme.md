@@ -54,14 +54,11 @@ node testGetone.js
 
 ## Docker
 
-    To create a docker image run:
-
 ``` bash
+#Create a docker image run:
 sudo docker build -t restaurant .
-```
-    To run the docker image run:
 
-``` bash
+#Run the docker image run:
 sudo docker run -p 3000:3000 --net=host restaurant
 ```
 
